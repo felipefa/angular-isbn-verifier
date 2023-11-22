@@ -66,7 +66,7 @@ $ npm run test
 
 ### Evaluation Criteria
 
-- Anuglar/TypeScript best practices
+- Angular/TypeScript best practices
 - HTML/CSS best practices
 - UX/UI skills and best practices
 - Show us your work through your commit history
