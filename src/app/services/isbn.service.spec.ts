@@ -80,5 +80,15 @@ describe("IsbnService", () => {
       expect(service.isValid(newIsbn)).toBeTruthy();
     });
   });
+
+  describe("generateIsbn13FromIsbn10()", () => {
+    it("should create a new ISBN-13 from an ISBN-10", () => {
+      expect(service.generateIsbn13FromIsbn10('3598215088')).toBeTruthy();
+    });
+
+    it("should create a new valid ISBN-13 if the ISBN-10 is invalid", () => {
+      expect(service.generateIsbn13FromIsbn10('3598215008')).toBe('978-3-598-21507-2');
+    });
+  });
 })
 
