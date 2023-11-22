@@ -5,11 +5,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IsbnVerifierComponent } from './isbn-verifier/isbn-verifier.component';
+import { IsbnGeneratorComponent } from './isbn-generator/isbn-generator.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    IsbnVerifierComponent
+    IsbnVerifierComponent,
+    IsbnGeneratorComponent
   ],
   imports: [
     BrowserModule,
