@@ -22,11 +22,7 @@ export class IsbnVerifierComponent {
   }
 
   validateIsbn() {
-    try {
-      this.isIsbnValid = this.isbnService.isValid(this.isbnInput);
-      this.hasIsbnBeenValidated = true;
-    } catch (error) {
-      console.log(error);
-    }
+    this.isIsbnValid = this.isbnService.isValid(this.isbnInput);
+    this.hasIsbnBeenValidated = true;
   }
 }
