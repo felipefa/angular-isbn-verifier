@@ -1,0 +1,3 @@
+<input type="text" (input)="onChangeIsbnInput($event)" />
+<button (click)="validateIsbn()">Validate</button>
+<p *ngIf="hasIsbnBeenValidated">{{ isIsbnValid }}</p>
