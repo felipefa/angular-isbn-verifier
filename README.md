@@ -1,6 +1,6 @@
-### Brief
+# ISBN Validator
 
-The [ISBN-10 verification process](https://en.wikipedia.org/wiki/International_Standard_Book_Number) is used to validate book identification numbers. These normally contain dashes and look like: `3-598-21508-8`
+The [ISBN-10 verification process](https://en.wikipedia.org/wiki/International_Standard_Book_Number) is used to validate book identification numbers. These normally contain dashes and look like: `3-598-21508-8`. This project was made as part of a coding challenge.
 
 ## ISBN
 
@@ -63,23 +63,3 @@ You can run all the tests by entering the following in your terminal:
 ```sh
 $ npm run test
 ```
-
-### Evaluation Criteria
-
-- Angular/TypeScript best practices
-- HTML/CSS best practices
-- UX/UI skills and best practices
-- Show us your work through your commit history
-- Completeness: Did you complete the features? Are all the tests running?
-- Correctness: Does the functionality act in sensible, thought-out ways?
-- Maintainability: Is it written in a clean, maintainable way?
-
-
-### CodeSubmit
-
-Please organize, design, and document your code as if it were going into production - then push your changes
-to the master branch. After you have pushed your code, you may submit the assignment on the assignment page.
-
-All the best and happy coding,
-
-The objego Team
